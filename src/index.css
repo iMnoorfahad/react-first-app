@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #180cc9;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #180cc9;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/*  blog post styles */
+
+
+.post-title {
+  font-size: 24px;
+  font-weight: 600;
+  border-bottom: 3px solid #0e0aec;
+  margin-bottom: 20px;
+}
+
+.post-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.post-preview:hover {
+  box-shadow: 1px 3px 5px rgba(4, 16, 126, 0.466);
+}
+.post-preview h2 {
+  font-size: 20px;
+  color: #0e0aec;
+  margin-bottom: 8px;
+}
+/* single page styles */
+
+.post-details h2 {
+  font-size: 20px;
+  color: #0e0aec;
+  margin-bottom: 10px;
+}
+.post-details div {
+  margin: 20px 0;
+}
+.post-details button {
+  background: #0e0aec;
+  color: #fff;
+  margin-top: 10px;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.post-details-button {
+  background: #0e0aec;
+  color: #fff;
+  margin-top: 10px;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* new-post a new post */
+
+.new-post {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.new-post label {
+  text-align: left;
+  display: block;
+}
+.new-post h2 {
+  font-size: 20px;
+  color: #0e0aec;
+  margin-bottom: 30px;
+}
+.new-post input, .new-post textarea, .new-post select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.new-post button {
+  background: #0e0aec;
+  margin-top: 10px;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
